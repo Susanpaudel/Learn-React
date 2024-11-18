@@ -15,6 +15,7 @@ import TodoList from './TodoList';
 import Timer from './Timer';
 import ReactUseEffect from './ReactUseEffect';
 import FetchPost from './FetchPost';
+import PortfolioProject from "./PortfolioProject";
 function Home(){
     const employees=[
         {id:1,name:"Susan Paudel",salary:120000},
@@ -58,6 +59,7 @@ function Home(){
     <hr/>
     <FetchPost></FetchPost>
     <hr/>
+    <PortfolioProject/>
     </>
     )
 }
